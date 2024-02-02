@@ -518,6 +518,9 @@ p {
   transition: all 0.3s ease-out 0s; }
   .sticky .navbar {
     padding: 10px 0; }
+  .sticky a.navbar-brand {
+    color:blue!important;
+  }
 
 .navbar {
   padding: 25px 0;
@@ -1392,6 +1395,7 @@ p {
   position: absolute;
   content: '';
   bottom: 0;
+  /* bottom: 191px; */
   left: 0;
   height: 100%;
   width: 100%;
@@ -1412,7 +1416,9 @@ p {
   z-index: -1; }
 
 .footer-widget {
-  padding-top: 50px; }
+  /* padding-top: 50px;  */
+padding-top: 200px;
+}
 
 .footer-about .logo img {
   width: 160px; }
