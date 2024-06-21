@@ -799,7 +799,8 @@ p {
       .header-hero-content .header-title {
         font-size: 30px; } }
   .header-hero-content .text {
-    color: #fff;
+    /* color: #fff; */
+        color: #3762e1;
     margin-top: 30px; }
   .header-hero-content .main-btn {
     margin-top: 40px; }
